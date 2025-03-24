@@ -27,6 +27,7 @@ public class HomePage {
 		wait.until(ExpectedConditions.visibilityOf(driver.findElement(sweaterProductLink))).click();
 		return new SweaterProductPage(driver);
 		// very good commit
+		//new line added
 		
 	}
 }
