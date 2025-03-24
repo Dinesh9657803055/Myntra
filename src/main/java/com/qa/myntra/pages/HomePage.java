@@ -26,7 +26,6 @@ public class HomePage {
 		act.moveToElement(driver.findElement(menCategoryLink)).build().perform();
 		wait.until(ExpectedConditions.visibilityOf(driver.findElement(sweaterProductLink))).click();
 		return new SweaterProductPage(driver);
-		//added last comment
 		
 		
 	}
