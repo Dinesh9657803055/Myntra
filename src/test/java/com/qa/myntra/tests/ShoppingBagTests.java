@@ -34,7 +34,7 @@ public class ShoppingBagTests {
 		sstp = new SweaterTypePage(driver);
 		sbp = new ShoppingBagPage(driver);
 		
-		//my test
+		//my test   
 	}
 
 	@Test
