@@ -14,15 +14,11 @@ public class HomePage {
 	
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
-		
-<<<<<<< HEAD
-
+	
 		System.out.println("Dinesh bhau"); //new changes 
-
-=======
 		System.out.println("Dhruval Patel");
 		System.out.println("Dinesh Kadam");
->>>>>>> branch 'Dinesh' of https://github.com/Dinesh9657803055/Myntra.git
+		System.out.println("Iam commting form Dhruval Account");
 	}
 	
 	By menCategoryLink = By.xpath("//header[@id='desktop-header-cnt']//nav//div[contains(@class,'navContent')]//a[@data-group='men']");
