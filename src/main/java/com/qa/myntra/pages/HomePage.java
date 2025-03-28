@@ -35,8 +35,6 @@ public class HomePage {
 		//act.moveToElement(wait.until(ExpectedConditions.visibilityOf(driver.findElement(menCategoryLink)))).build().perform();
 		act.moveToElement(driver.findElement(menCategoryLink)).build().perform();
 		wait.until(ExpectedConditions.visibilityOf(driver.findElement(sweaterProductLink))).click();
-		return new SweaterProductPage(driver);
-	
-		
+		return new SweaterProductPage(driver);	
 	}
 }
