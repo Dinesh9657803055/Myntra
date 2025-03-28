@@ -14,13 +14,15 @@ public class HomePage {
 	
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
-	
+		System.out.println("Dhruval Patel");
+		System.out.println("Dinesh Kadam");
 		System.out.println("Dinesh bhau"); //new changes 
 		System.out.println("Dhruval Patel");
 		System.out.println("Dinesh Kadam");
 		System.out.println("Iam commting form Dhruval Account");
 		System.out.println("Iam commiing form Dhruval Account");
 		System.out.println("Checking Merge Conflict");
+
 	}
 	
 	By menCategoryLink = By.xpath("//header[@id='desktop-header-cnt']//nav//div[contains(@class,'navContent')]//a[@data-group='men']");
@@ -33,8 +35,6 @@ public class HomePage {
 		//act.moveToElement(wait.until(ExpectedConditions.visibilityOf(driver.findElement(menCategoryLink)))).build().perform();
 		act.moveToElement(driver.findElement(menCategoryLink)).build().perform();
 		wait.until(ExpectedConditions.visibilityOf(driver.findElement(sweaterProductLink))).click();
-		return new SweaterProductPage(driver);
-	
-		
+		return new SweaterProductPage(driver);	
 	}
 }
