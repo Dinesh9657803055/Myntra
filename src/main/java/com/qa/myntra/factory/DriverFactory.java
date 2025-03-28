@@ -14,6 +14,7 @@ public class DriverFactory {
 		driver = new ChromeDriver(cop);
 		driver.get("https://www.myntra.com/");
 		System.out.println("--Launch the Myntra URL.");
+		System.out.println("chnages by Dinesh Main branch but pushing to Jay branch");
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		

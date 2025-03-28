@@ -23,6 +23,8 @@ public class SweaterProductPage {
 		driver.switchTo().window((String)windowHandles[1]);
 		return new SweaterTypePage(driver);
 	}
+	
+	
 
 	
 
